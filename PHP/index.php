@@ -3,19 +3,18 @@
 <head>
 	<meta charset=UTF-8" />
 	
-	<title>QUIZ SIDA</title>
+	<title>Home - SIDA</title>
 	
 	<link rel="stylesheet" type="text/css" href="../CSS/style1.css" />
     <link rel="stylesheet" type="text/css" href="../CSS/style.css" />
     
 </head>
  
-<body class="patate">
+<body>
     <?php include "header.php";?>
 	<div id="page-wrap">
-        
  
-		<h1>Quiz SIDA</h1>
+		<h1 class="">Quiz SIDA</h1>
 		
 		<form action="result.php" method="post" id="quiz">
 		
@@ -42,7 +41,7 @@
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) Une suceuse impuissante d'alien </label>
+                        <label for="question-1-answers-D">D) Une Suceuse Incroyablement Diabolique d'Alien </label>
                     </div>
                 
                 </li>
