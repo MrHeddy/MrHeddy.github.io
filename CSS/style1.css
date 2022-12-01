@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(99, 99, 99);
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: solid 1px;
+    color: rgb(211, 118, 216);
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(129, 129, 129);
+}
+
+.menu li {
+    float: left;
+    width: 80px;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+    color: rgb(211, 118, 216);
+}
+  
+.menu li a.active {
+    float: right;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.nobluelink {
+    text-decoration: none;
+    color: black;
+}
+
+.patate {
+    font-family: Verdana;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.droite{
+    margin-left: 83%;
+}
